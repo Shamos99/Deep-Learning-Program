@@ -1,0 +1,9 @@
+This is still a bit rough.
+
+The java file 'main.java' runs the entire program. It allows you to draw images on a JFRame and then gives you 3 main options:
+
+1) Test! - which runs 'Alpahbet.py' through the shell and gives a guess as to what the image was.
+2) Save - which saves the pixel data of the image along with what letter it is in 'data.txt' and 'letter.txt' respectively.
+3) Learn - which runs all the current image data through the AI for five epohcs and updates it.
+
+To make this work for you, it is important that in 'main.java' you fix the filepaths in the functions testQuery, saveImage and upDateModel, so that these work for you.
